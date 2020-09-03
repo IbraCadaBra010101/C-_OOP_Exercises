@@ -1,0 +1,13 @@
+C:\oop_csharp\exercises\week1\Multiple\bin\Debug\netcoreapp3.1\Multiple.exe
+C:\oop_csharp\exercises\week1\Multiple\bin\Debug\netcoreapp3.1\Multiple.deps.json
+C:\oop_csharp\exercises\week1\Multiple\bin\Debug\netcoreapp3.1\Multiple.runtimeconfig.json
+C:\oop_csharp\exercises\week1\Multiple\bin\Debug\netcoreapp3.1\Multiple.runtimeconfig.dev.json
+C:\oop_csharp\exercises\week1\Multiple\bin\Debug\netcoreapp3.1\Multiple.dll
+C:\oop_csharp\exercises\week1\Multiple\bin\Debug\netcoreapp3.1\Multiple.pdb
+C:\oop_csharp\exercises\week1\Multiple\obj\Debug\netcoreapp3.1\Multiple.csprojAssemblyReference.cache
+C:\oop_csharp\exercises\week1\Multiple\obj\Debug\netcoreapp3.1\Multiple.AssemblyInfoInputs.cache
+C:\oop_csharp\exercises\week1\Multiple\obj\Debug\netcoreapp3.1\Multiple.AssemblyInfo.cs
+C:\oop_csharp\exercises\week1\Multiple\obj\Debug\netcoreapp3.1\Multiple.csproj.CoreCompileInputs.cache
+C:\oop_csharp\exercises\week1\Multiple\obj\Debug\netcoreapp3.1\Multiple.dll
+C:\oop_csharp\exercises\week1\Multiple\obj\Debug\netcoreapp3.1\Multiple.pdb
+C:\oop_csharp\exercises\week1\Multiple\obj\Debug\netcoreapp3.1\Multiple.genruntimeconfig.cache
