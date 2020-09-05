@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Text.Json;
 
 namespace week3
 {
@@ -14,7 +15,12 @@ namespace week3
             // ReverseList();
             // FindLengthOfWords();
             // CheckingCommonMembers();
+            //DeclareDictionary();
+            // AddMissingKey();
+            // removeFalseKey();
+            PrintSumOfDictionary();
         }
+        // LIST EXERCISES
         #region create a list
 
         //List<int> nums = new List<int>();
@@ -217,5 +223,67 @@ namespace week3
 
         #endregion
 
+
+
+        //DICTIONARY EXERCISES 
+
+        #region DeclareDictionary
+
+        //static void DeclareDictionary()
+        //{
+        //    //Dictionary<string, string> me = new Dictionary<string, string>() { { "Name", "Jim" }, { "age", "10" } };
+        //    //foreach (var el in me)
+        //    //{
+        //    //    Console.WriteLine("Keys:{0}\nValues{1}", el.Key, el.Value);
+
+        //    //}
+        //}
+
+
+        #endregion
+        #region AddMissingKey
+        //static void AddMissingKey()
+        //{
+        //    Dictionary<string, string> person = new Dictionary<string, string>();
+        //    person.Add("name","Jennifer");
+
+        //    foreach (var pair in person )
+        //    {
+        //        Console.WriteLine(pair);
+        //        Console.WriteLine(pair.Value);
+        //        Console.WriteLine(pair.Key);
+        //    }
+        //}
+        #endregion
+        #region RemoveFalseKey
+        //static void removeFalseKey()
+        //{
+        //    Dictionary<string, string> myDictionary = new Dictionary<string, string>() { { "name", "Foo Bar" }, { "age", "10" }, { "foo", "bar" } };
+
+        //    myDictionary.Remove("foo");
+        //    foreach (var pair in myDictionary)
+        //    {
+        //        Console.WriteLine(pair.Key + " " + pair.Value);
+        //    }
+        //}
+
+        #endregion
+        #region PrintSumOfDictionary
+
+        //static void PrintSumOfDictionary()
+        //{
+        //    Dictionary<string, int> myNumsDictionary = new Dictionary<string, int>()
+        //    {
+        //        {"data1", 5}, {"data2", 1}, {"data3", 122}
+        //    };
+        //    int sum = 0;
+        //    foreach (var pair in myNumsDictionary)
+        //    {
+        //        sum += pair.Value;
+        //    }
+        //    Console.WriteLine(sum);
+        //}
+
+        #endregion
     }
 }
