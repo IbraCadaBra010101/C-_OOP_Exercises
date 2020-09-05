@@ -13,7 +13,7 @@ namespace week3
             // ConcatenateIndexWise();
             // ReverseList();
             // FindLengthOfWords();
-            CheckingCommonMembers();
+            // CheckingCommonMembers();
         }
         #region create a list
 
@@ -186,35 +186,34 @@ namespace week3
 
 
         #endregion
-
         #region  CheckingCommonMembers
 
-        static void CheckingCommonMembers()
-        {
-            List<int> l1 = new List<int>() { 1, 2, 3, 4, 5 };
-            List<int> l2 = new List<int>() { 0, 0, 0, 1, 0 };
-            int commonAmount = 0;
+        //static void CheckingCommonMembers()
+        //{
+        //    List<int> l1 = new List<int>() { 1, 2, 3, 4, 5 };
+        //    List<int> l2 = new List<int>() { 0, 0, 0, 1, 0 };
+        //    int commonAmount = 0;
 
-            for (int i = 0; i < l1.Count; i++)
-            {
-                for (int j = 0; j < l2.Count; j++)
-                {
-                    if (l1[i] == l2[j])
-                    {
-                        commonAmount++;
-                    }
-                }
-            }
+        //    for (int i = 0; i < l1.Count; i++)
+        //    {
+        //        for (int j = 0; j < l2.Count; j++)
+        //        {
+        //            if (l1[i] == l2[j])
+        //            {
+        //                commonAmount++;
+        //            }
+        //        }
+        //    }
 
-            if (commonAmount > 0)
-            {
-                Console.WriteLine("There are {0} shared members", commonAmount);
-            }
-            else
-            {
-                Console.WriteLine("There are no shared members!");
-            }
-        }
+        //    if (commonAmount > 0)
+        //    {
+        //        Console.WriteLine("There are {0} shared members", commonAmount);
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine("There are no shared members!");
+        //    }
+        //}
 
         #endregion
 
