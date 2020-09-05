@@ -9,7 +9,8 @@ namespace week3
         static void Main(string[] args)
         {
             // RemoveAllNegativeOccurences();
-            ConcatenateIndexWise();
+            // ConcatenateIndexWise();
+            ReverseList();
         }
         #region create a list
 
@@ -109,30 +110,53 @@ namespace week3
 
 
         #endregion
-
         #region ConcatingListIndexWise
 
-        static void combineByIndex()
-        {
-            List<string> listOne = new List<string>() { "My", "na", "is", "Ti" };
-            List<string> listTwo = new List<string>() { "y", "me", "is", "m" };
-            List<string> combinedList = new List<string>();
+        //static void combineByIndex()
+        //{
+        //    List<string> listOne = new List<string>() { "My", "na", "is", "Ti" };
+        //    List<string> listTwo = new List<string>() { "y", "me", "is", "m" };
+        //    List<string> combinedList = new List<string>();
 
-            for (int i = 0; i < listOne.Count; i++)
-            {
-                if (listOne[i].Contains(listTwo[i]))
-                {
-                    combinedList.Add(listOne[i]);
-                }
-                else
-                {
-                    combinedList.Add(listOne[i] + listTwo[i]);
-                }
+        //    for (int i = 0; i < listOne.Count; i++)
+        //    {
+        //        if (listOne[i].Contains(listTwo[i]))
+        //        {
+        //            combinedList.Add(listOne[i]);
+        //        }
+        //        else
+        //        {
+        //            combinedList.Add(listOne[i] + listTwo[i]);
+        //        }
 
-            }
-        }
+        //    }
+        //}
 
 
         #endregion
+
+
+        //public static void ReverseList()
+        //{
+        //    // Med inbyggd C# util funktion Reverse()
+        //    //var items = new List<int>() { 1, 2, 3, 4, 5 };
+        //    //items.Reverse();
+        //    //foreach (var n in items)
+        //    //{
+        //    //    Console.WriteLine(n);
+        //    //}
+
+
+
+        //    // Manuellt utan inbyggda funktiioner
+        //    var tempList = new List<int>();
+        //    var items = new List<int>() { 1, 2, 3, 4, 5 };
+        //    for (int i = items.Count - 1; i >= 0; i--)
+        //    {
+        //        tempList.Add(items[i]);
+        //    }
+        //    items.Clear();
+        //    items.AddRange(tempList);
+        //}
     }
 }
