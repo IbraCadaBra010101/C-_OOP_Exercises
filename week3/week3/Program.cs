@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
 namespace week3
@@ -10,7 +11,9 @@ namespace week3
         {
             // RemoveAllNegativeOccurences();
             // ConcatenateIndexWise();
-            ReverseList();
+            // ReverseList();
+            // FindLengthOfWords();
+            CheckingCommonMembers();
         }
         #region create a list
 
@@ -134,7 +137,7 @@ namespace week3
 
 
         #endregion
-
+        #region  reversingList 
 
         //public static void ReverseList()
         //{
@@ -158,5 +161,62 @@ namespace week3
         //    items.Clear();
         //    items.AddRange(tempList);
         //}
+
+
+        #endregion
+        #region FindLengthOfWords
+        //static void FindLengthOfWords()
+        //{
+        //    List<string> words = new List<string>()
+        //    {
+        //        "The", "quick", "brown", "fox", "jumps",
+        //        "over", "the", "lazy", "dog"
+        //    };
+        //    Console.WriteLine("Please enter the length of the word you're interested in finding!");
+        //    int n = int.Parse(Console.ReadLine());
+        //    Console.WriteLine("The following words are {0} characters long: ", n);
+        //    for (int i = 0; i < words.Count; i++)
+        //    {
+        //        if (words[i].Length > n)
+        //        {
+        //            Console.WriteLine(words[i]);
+        //        }
+        //    }
+        //}
+
+
+        #endregion
+
+        #region  CheckingCommonMembers
+
+        static void CheckingCommonMembers()
+        {
+            List<int> l1 = new List<int>() { 1, 2, 3, 4, 5 };
+            List<int> l2 = new List<int>() { 0, 0, 0, 1, 0 };
+            int commonAmount = 0;
+
+            for (int i = 0; i < l1.Count; i++)
+            {
+                for (int j = 0; j < l2.Count; j++)
+                {
+                    if (l1[i] == l2[j])
+                    {
+                        commonAmount++;
+                    }
+                }
+            }
+
+            if (commonAmount > 0)
+            {
+                Console.WriteLine("There are {0} shared members", commonAmount);
+            }
+            else
+            {
+                Console.WriteLine("There are no shared members!");
+            }
+        }
+
+        #endregion
+
     }
 }
