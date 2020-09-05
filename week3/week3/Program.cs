@@ -19,7 +19,8 @@ namespace week3
             // AddMissingKey();
             // removeFalseKey();
             // PrintSumOfDictionary();
-            readKeyFromUser();
+            // readKeyFromUser();
+            // CountLettersInString();
         }
         // LIST EXERCISES
         #region create a list
@@ -286,7 +287,6 @@ namespace week3
         //}
 
         #endregion
-
         #region ReadKey
 
         //static void readKeyFromUser()
@@ -314,5 +314,28 @@ namespace week3
         //}
 
         #endregion
+
+        #region CountLettersInString
+
+        //static void CountLettersInString()
+        //{
+        //    var randomString = "w3resource";
+        //    Dictionary<char, int> myDictionary = new Dictionary<char, int>();
+
+        //    for (int i = 0; i < randomString.Length; i++)
+        //    {
+        //        if (myDictionary.ContainsKey(randomString[i]))
+        //        {
+        //            myDictionary[randomString[i]]++;
+        //        }
+        //        else
+        //        {
+        //            myDictionary.Add(randomString[i], 1);
+        //        }
+        //    }
+        //}
+
+        #endregion
+
     }
 }
