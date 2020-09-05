@@ -18,7 +18,8 @@ namespace week3
             //DeclareDictionary();
             // AddMissingKey();
             // removeFalseKey();
-            PrintSumOfDictionary();
+            // PrintSumOfDictionary();
+            readKeyFromUser();
         }
         // LIST EXERCISES
         #region create a list
@@ -282,6 +283,34 @@ namespace week3
         //        sum += pair.Value;
         //    }
         //    Console.WriteLine(sum);
+        //}
+
+        #endregion
+
+        #region ReadKey
+
+        //static void readKeyFromUser()
+        //{
+        //    string usersKey = Console.ReadLine();
+        //    Dictionary<string, string> myDictionary = new Dictionary<string, string>()
+        //    {
+        //        {"name", "Foo Bar"}, {"age", "10"}
+        //    };
+        //    int amountOfKeysFound = 0;
+
+        //    foreach (var pair in myDictionary)
+        //    {
+        //        if (pair.Key.Contains(usersKey.ToLower()))
+        //        {
+        //            Console.WriteLine(pair.Value);
+        //            amountOfKeysFound++;
+        //        }
+        //    }
+
+        //    if (amountOfKeysFound == 0)
+        //    {
+        //        Console.WriteLine("The provided key was not found!");
+        //    }
         //}
 
         #endregion
