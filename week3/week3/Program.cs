@@ -21,6 +21,7 @@ namespace week3
             // PrintSumOfDictionary();
             // readKeyFromUser();
             // CountLettersInString();
+            CountPotentialGain();
         }
         // LIST EXERCISES
         #region create a list
@@ -314,7 +315,6 @@ namespace week3
         //}
 
         #endregion
-
         #region CountLettersInString
 
         //static void CountLettersInString()
@@ -337,5 +337,28 @@ namespace week3
 
         #endregion
 
+        #region CountPotentialGain
+
+        //static void CountPotentialGain()
+        //{
+        //    Dictionary<string, double> itemPrices = new Dictionary<string, double>()
+        //    {
+        //        {"banana", 4}, {"apple", 2},  {"orange", 1.5},  {"pear", 3}
+        //    };
+        //    Dictionary<string, int> amountInStock = new Dictionary<string, int>()
+        //    {
+        //        {"banana", 10}, {"apple", 0},  {"orange", 32},  {"pear", 15}
+        //    };
+
+        //    double sumOfPrices = 0;
+
+        //    for (var i = 0; i < itemPrices.Count; i++)
+        //    {
+        //        sumOfPrices += amountInStock.ElementAt(i).Value * itemPrices.ElementAt(i).Value;
+        //    }
+        //    Console.WriteLine("Money in store {0}", sumOfPrices);
+        //}
+
+        #endregion
     }
 }
