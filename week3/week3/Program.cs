@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text.Json;
 
 namespace week3
@@ -15,13 +16,14 @@ namespace week3
             // ReverseList();
             // FindLengthOfWords();
             // CheckingCommonMembers();
-            //DeclareDictionary();
+            // DeclareDictionary();
             // AddMissingKey();
             // removeFalseKey();
             // PrintSumOfDictionary();
             // readKeyFromUser();
             // CountLettersInString();
-            CountPotentialGain();
+            // CountPotentialGain();
+            // CountPotentialGainNewDataStructure();
         }
         // LIST EXERCISES
         #region create a list
@@ -336,7 +338,6 @@ namespace week3
         //}
 
         #endregion
-
         #region CountPotentialGain
 
         //static void CountPotentialGain()
@@ -359,6 +360,28 @@ namespace week3
         //    Console.WriteLine("Money in store {0}", sumOfPrices);
         //}
 
+        #endregion
+        #region Countpotentialgainnewdatastructure
+
+        //static void CountPotentialGainNewDataStructure()
+        //{
+        //    Dictionary<string, Dictionary<double, int>> productsDictionary = new Dictionary<string, Dictionary<double, int>>()
+        //    {
+        //        {"banana", new Dictionary<double, int>(){{4,10}}},
+        //        {"apple", new Dictionary<double, int>(){{2,5}}},
+        //        {"orange", new Dictionary<double, int>(){{1.5,16}}},
+        //        {"pear", new Dictionary<double, int>(){{3,15}}},
+        //    };
+        //    double expectedGain = 0;
+        //    foreach (var product in productsDictionary)
+        //    {
+        //        foreach (var priceAndAmount in product.Value)
+        //        {
+        //            expectedGain += priceAndAmount.Value * priceAndAmount.Key;
+        //        }
+        //    } 
+        //    Console.WriteLine(expectedGain);
+        //}
         #endregion
     }
 }
