@@ -24,7 +24,48 @@ namespace week3
             // CountLettersInString();
             // CountPotentialGain();
             // CountPotentialGainNewDataStructure();
+            //PrintHello();
+            //var a = GetAndPrintAge();
+            //Console.WriteLine(a);
+            //Console.WriteLine(GetAndPrintAge());
+            //var number1 = number();
+            //var number2 = number();
+            //var result =  CalcSum(number1, number2);
+            //Console.WriteLine(result);
+            //var first = FirstNameInput();
+            //var second = SecondNameInput();
+            //var wholeName = CombineNames(first);
+            //Console.WriteLine(wholeName);
+            //int num1 = UserInput("write first number");
+            //int num2 = UserInput("write second number");
+            //int num3 = UserInput("write third number");
+            //var smallestNum = SmallestNumberOfTwoNumbers(SmallestNumberOfTwoNumbers(num1, num2), num3);
+            //Console.WriteLine(smallestNum);
+            //Console.WriteLine("Enter a statement!");
+            //var userInput = Console.ReadLine();
+            //var myBool = CheckBool(userInput);
+            //Console.WriteLine(myBool);
+            //Console.WriteLine("Hello");
+            //var res = CheckBool(Console.ReadLine(), out var checker);
+            //Console.WriteLine(res);
+            //Console.WriteLine(checker);
+            //Console.WriteLine("Write a valid number");
+            //var a = int.TryParse(Console.ReadLine(), out var number);
+            //Console.WriteLine(a);
+            //Console.WriteLine(number);
+            //Console.WriteLine("Hello, enter a number!");
+            // int clampResult = clampToRange(Console.ReadLine());
+            // Console.WriteLine(clampResult);
+            //var weekDayString = WeekDay(ValidateInput());
+            // Console.WriteLine(weekDayString);
+            var userAgeInSeconds = validateInput();
+            var age = YourAgeIndifferentPlanets(userAgeInSeconds);
+            foreach (var planet in age)
+            {
+                Console.WriteLine($"Age in planet {planet.Key}: {planet.Value}");   
+            }
         }
+
         // LIST EXERCISES
         #region create a list
 
@@ -66,7 +107,6 @@ namespace week3
         //}
         #endregion
         #region RemovingByIndex
-
         //static List<string> RemoveFromList(List<string> list)
         //{
         //    for (int i = list.Count - 1; i >= 0; i--)
@@ -229,7 +269,6 @@ namespace week3
         #endregion
 
 
-
         //DICTIONARY EXERCISES 
 
         #region DeclareDictionary
@@ -379,9 +418,300 @@ namespace week3
         //        {
         //            expectedGain += priceAndAmount.Value * priceAndAmount.Key;
         //        }
-        //    } 
+        //    }
         //    Console.WriteLine(expectedGain);
         //}
         #endregion
+
+        // Methods 
+
+        #region hellofunction
+
+        // static string PrintHello()
+        //{
+        //    Console.WriteLine("Hello function");
+        //}
+
+        #endregion
+        #region Get name function
+        //static string GetAndPrintAge()
+        //{
+        //    Console.WriteLine("Please enter your age!");
+        //    var ageInput = int.Parse(Console.ReadLine());
+        //    var message = $"User age is {ageInput} years old";
+        //    return message;
+        //}
+        #endregion
+        #region Calculate sum
+        //static int number()
+        //{
+        //    Console.WriteLine("Write your number");
+        //    var userInput = int.Parse(Console.ReadLine());
+        //    return userInput;
+        //}
+        //static int CalcSum(int firsNum, int secondNum)
+        //{
+        //    var sum = firsNum + secondNum;
+        //    return sum;
+        //}
+
+
+
+        #endregion
+        #region combineNames 
+
+        //Combine name
+        //Write an app that reads first name and last name from the user and combines them if no last name
+        //    was entered N:A should be used instead.Create a function that takes first name and last name as in 
+        //parameter the default value of last name should be “N:A”. It should combine these values and return
+        //the result.Remember to only call the function with a last name if one was given.
+        //static string FirstNameInput()
+        //{
+        //    Console.WriteLine("Enter first name");
+        //    string userInput = Console.ReadLine();
+        //    return userInput;
+        //}
+        //static string SecondNameInput()
+        //{
+        //    Console.WriteLine("Enter second name");
+        //    string userInput = Console.ReadLine();
+        //    return userInput;
+        //}
+        //static string CombineNames(string firstName, string secondName = "N:A")
+        //{
+        //    return $"{firstName} {secondName}";
+        //}
+        #endregion
+        #region smallestNumber/biggestnumber
+
+        //Smallest method
+        //Write an app that read three numbers from the user and returns the smallest of the three numbers.
+        //    Write a function that only takes two integers as in parameters and returns the smallest of the in
+        //parameters.
+        //    Hint! To get the minimum of three numbers first find the minimum of two and then the minimum of
+        //the result of the first function and the last number
+        //Example data:
+        //4
+        //5
+        //6
+        //Example output:
+        //6 is the largest number
+
+        //static int UserInput(string message)
+        //{
+        //    Console.WriteLine(message);
+        //    var numbInput = int.Parse(Console.ReadLine());
+        //    return numbInput;
+        //}
+
+        //static int SmallestNumberOfTwoNumbers(int firstNum = 0, int secondNum = 0)
+        //{
+        //    return firstNum < secondNum ? firstNum : secondNum;
+        //}
+
+        //static int OnlyOneNumber(int num = 0)
+        //{
+        //    return num;
+        //}
+        #endregion
+        #region checkbool 
+        //Swedish bool parser
+        //Write an app that converts input from the user in Swedish to a bool. Write a function that takes a
+        //string as in parameter and returns a bool. The input string should be checked for the swedish words
+        //    Ja, Sant, Nej, Falskt and if it matches any of these return the corresponding bool. If no match was
+        //found print an error message and return False or throw an error(exception)
+        //Example data:
+        //Ja
+        //    Example output:
+        //True
+        //    Example data:
+        //Nej
+        //    Example output:
+        //False
+        //    Example data:
+        //Foo
+        //    Example output:
+        //Error can not convert “Foo” to Swedish bool
+        //static bool CheckBool(string userInput, out bool outValue)
+        //{
+
+
+        //    outValue = false;
+        //    switch (userInput)
+        //    {
+        //        case "nej":
+        //        case "falsk":
+        //            outValue = false;
+        //            break;
+        //        case "ja":
+        //        case "sant":
+        //            outValue = true;
+        //            break;
+        //        default:
+        //            Console.WriteLine($"Could not parse {userInput}");
+        //            break;
+        //    }
+
+        //    return outValue;
+        //}
+
+        #endregion
+        #region clampToRange
+        /*
+         *Clamp to range Write an app that reads a number from
+         * the user and ensures that it is in a range. Write a
+         * function that takes a number as an input and clamps
+         * that number to the range 0 – 20. Clamp meaning forcing
+         * the value to be in the give range if for example the number -1
+         * was give we would clamp to 0 if it were more than 20, we
+         * would clamp to 20. Return the clamped value and print the result. 
+                Example data: 
+                26 
+                Example output: 
+                20 
+                Example data: 
+                -1 
+                Example output 
+                0 
+                Example data: 
+                5 
+                Example output: 
+         *
+         */
+        //static int clampToRange(string userInput)
+        //{
+        //    var userNumber = int.Parse(userInput);
+        //    if (userNumber > 20)
+        //    {
+        //        userNumber = 20;
+        //    }
+
+        //    if (userNumber < 0)
+        //    {
+        //        userNumber = 0;
+        //    }
+        //    return userNumber;
+        //}
+        #endregion
+        #region weekDay
+
+        /**
+         *  Write an app that reads a number from the user and returns the name of the day corresponding to
+            that number 1 is Monday. Read number should be a function. Validate input from read number
+            should be a function that returns true or false based on if the input is valid. Create a function that
+            takes a number as a in parameter and returns the weekday as a string that is only called when input
+            is valid. If input is not valid an error message should be printed
+            Example data:
+            1
+            Example output:
+            Monday
+            Example data:
+            10
+            Example output:
+            10 is not a valid input
+         */
+        //static int ValidateInput()
+        //{
+        //    Console.WriteLine("Write a number from 1 to 7 to get the corresponding week day!");
+        //    var userInput = Console.ReadLine();
+        //    int validNumber; 
+        //    while (!(int.TryParse(userInput, out  validNumber)) || (validNumber > 7 || validNumber < 1))
+        //    {
+        //        Console.WriteLine("Invalid number. Write a number from 1 to 7");
+        //        userInput = Console.ReadLine();
+        //    }
+        //    return validNumber;
+        //}
+        //static string WeekDay(int userNumber)
+        //{
+        //    var day = "";
+        //    switch (userNumber)
+        //    {
+        //        case 1:
+        //            day = "Monday";
+        //            return day;
+        //        case 2:
+        //            day = "Tuesday";
+        //            return day;
+
+        //        case 3:
+        //            day = "Wednesday";
+        //            return day;
+
+        //        case 4:
+        //            day = "Thursday";
+        //            return day;
+        //        case 5:
+        //            day = "Friday";
+        //            return day;
+        //        case 6:
+        //            day = "Saturday";
+        //            return day;
+        //        case 7:
+        //            day = "Sunday";
+        //            return day;
+
+        //    }
+
+        //    return day;
+        //}
+
+        #endregion
+
+        #region Age on planets
+
+        /**
+         *Age on planets
+            Write an app that takes an age in seconds and calculates how old someone would be on different
+            planets. You should have two fractions in the results
+            • Earth: orbital period 365.25 Earth days, or 31557600 seconds
+            • Mercury: orbital period 0.2408467 Earth years
+            • Venus: orbital period 0.61519726 Earth years
+            • Mars: orbital period 1.8808158 Earth years
+            • Jupiter: orbital period 11.862615 Earth years
+            • Saturn: orbital period 29.447498 Earth years
+            • Uranus: orbital period 84.016846 Earth years
+            • Neptune: orbital period 164.79132 Earth years
+            So, if you were 1,000,000,000 second year old. You are 31.69 Earth-years old.
+         */
+
+        static double validateInput()
+        {
+            string userInput;
+            double userInputNumber;
+            do
+            {
+                Console.WriteLine("Enter your age in seconds!");
+                userInput = Console.ReadLine();
+            } while (!double.TryParse(userInput, out userInputNumber));
+
+            return userInputNumber;
+        }
+
+        static Dictionary<string, double> YourAgeIndifferentPlanets(double ageInSeconds)
+        {
+          
+            const double secondsPerYear = 365.25 * 24 * 60 * 60;
+            var orbitPeriod = new Dictionary<string, double>()
+            {
+                {"Earth",  1},
+                {"Mercury",   0.2408467},
+                {"Venus",  0.61519726},
+                {"Mars", 1.8808158 }
+            };
+            var ageInDifferentPlanets = new Dictionary<string, double>() { };
+
+            foreach (var (key, value) in orbitPeriod)
+            {
+                var secondsInYear = value * secondsPerYear;
+                var ageInPlanet = ageInSeconds / secondsInYear;
+                ageInDifferentPlanets.Add(key, ageInPlanet);
+            }
+
+            return ageInDifferentPlanets;
+        }
+
+        #endregion
+
     }
 }
