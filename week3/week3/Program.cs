@@ -58,12 +58,14 @@ namespace week3
             // Console.WriteLine(clampResult);
             //var weekDayString = WeekDay(ValidateInput());
             // Console.WriteLine(weekDayString);
-            var userAgeInSeconds = validateInput();
-            var age = YourAgeIndifferentPlanets(userAgeInSeconds);
-            foreach (var planet in age)
-            {
-                Console.WriteLine($"Age in planet {planet.Key}: {planet.Value}");   
-            }
+            //var userAgeInSeconds = validateInput();
+            //var age = YourAgeIndifferentPlanets(userAgeInSeconds);
+            //foreach (var planet in age)
+            //{
+            //    Console.WriteLine($"Age in planet {planet.Key}: {planet.Value}");
+            //}
+            var res = FactorialOfNumber(5);
+            Console.WriteLine(res);
         }
 
         // LIST EXERCISES
@@ -657,61 +659,57 @@ namespace week3
         //}
 
         #endregion
-
         #region Age on planets
 
-        /**
-         *Age on planets
-            Write an app that takes an age in seconds and calculates how old someone would be on different
-            planets. You should have two fractions in the results
-            • Earth: orbital period 365.25 Earth days, or 31557600 seconds
-            • Mercury: orbital period 0.2408467 Earth years
-            • Venus: orbital period 0.61519726 Earth years
-            • Mars: orbital period 1.8808158 Earth years
-            • Jupiter: orbital period 11.862615 Earth years
-            • Saturn: orbital period 29.447498 Earth years
-            • Uranus: orbital period 84.016846 Earth years
-            • Neptune: orbital period 164.79132 Earth years
-            So, if you were 1,000,000,000 second year old. You are 31.69 Earth-years old.
-         */
+        //static double validateInput()
+        //{
+        //    string userInput;
+        //    double userInputNumber;
+        //    do
+        //    {
+        //        Console.WriteLine("Enter your age in seconds!");
+        //        userInput = Console.ReadLine();
+        //    } while (!double.TryParse(userInput, out userInputNumber));
 
-        static double validateInput()
-        {
-            string userInput;
-            double userInputNumber;
-            do
-            {
-                Console.WriteLine("Enter your age in seconds!");
-                userInput = Console.ReadLine();
-            } while (!double.TryParse(userInput, out userInputNumber));
+        //    return userInputNumber;
+        //}
 
-            return userInputNumber;
-        }
+        //static Dictionary<string, double> YourAgeIndifferentPlanets(double ageInSeconds)
+        //{
 
-        static Dictionary<string, double> YourAgeIndifferentPlanets(double ageInSeconds)
-        {
-          
-            const double secondsPerYear = 365.25 * 24 * 60 * 60;
-            var orbitPeriod = new Dictionary<string, double>()
-            {
-                {"Earth",  1},
-                {"Mercury",   0.2408467},
-                {"Venus",  0.61519726},
-                {"Mars", 1.8808158 }
-            };
-            var ageInDifferentPlanets = new Dictionary<string, double>() { };
+        //    const double secondsPerYear = 365.25 * 24 * 60 * 60;
+        //    var orbitPeriod = new Dictionary<string, double>()
+        //    {
+        //        {"Earth",  1},
+        //        {"Mercury",   0.2408467},
+        //        {"Venus",  0.61519726},
+        //        {"Mars", 1.8808158 }
+        //    };
+        //    var ageInDifferentPlanets = new Dictionary<string, double>() { };
 
-            foreach (var (key, value) in orbitPeriod)
-            {
-                var secondsInYear = value * secondsPerYear;
-                var ageInPlanet = ageInSeconds / secondsInYear;
-                ageInDifferentPlanets.Add(key, ageInPlanet);
-            }
+        //    foreach (var (key, value) in orbitPeriod)
+        //    {
+        //        var secondsInYear = value * secondsPerYear;
+        //        var ageInPlanet = ageInSeconds / secondsInYear;
+        //        ageInDifferentPlanets.Add(key, ageInPlanet);
+        //    }
 
-            return ageInDifferentPlanets;
-        }
+        //    return ageInDifferentPlanets;
+        //}
 
         #endregion
+        #region factorialofN
 
+        //static int FactorialOfNumber(int n)
+        //{
+
+        //    if (n > 0)
+        //        return n * FactorialOfNumber(n - 1);
+        //    return 1;
+
+
+        //}
+        #endregion
     }
 }
+
