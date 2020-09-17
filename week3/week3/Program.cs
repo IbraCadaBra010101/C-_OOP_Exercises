@@ -64,8 +64,8 @@ namespace week3
             //{
             //    Console.WriteLine($"Age in planet {planet.Key}: {planet.Value}");
             //}
-            var res = FactorialOfNumber(5);
-            Console.WriteLine(res);
+            //var res = FactorialOfNumber(5);
+            //Console.WriteLine(res);
         }
 
         // LIST EXERCISES
