@@ -9,6 +9,7 @@ namespace week4
     {
         private static void Main(string[] args)
         {
+ 
         }
 
         #region Separate characters
@@ -138,9 +139,43 @@ namespace week4
         //    Console.WriteLine(isLastElementPeriod);
         //}
         #endregion
+        #region ScrambleWords
 
+        //static string ScrambleWords()
+        //{
+        //    Console.WriteLine("Enter a word and it will get scrambled!");
 
+        //    var userInput = Console.ReadLine();
+        //    var random = new Random();
+        //    var arrayOfChars = userInput.ToList();
 
+        //    var listOfCharRandomized = new List<char>();
+
+        //    while (arrayOfChars.Count > 0)
+        //    {
+        //        var randomIndexWithinRange = random.Next(arrayOfChars.Count - 1);
+        //        var c = arrayOfChars[randomIndexWithinRange];
+        //        listOfCharRandomized.Add(c);
+        //        arrayOfChars.Remove(arrayOfChars[randomIndexWithinRange]);
+        //    }
+        //    var scrambled = new string(listOfCharRandomized.ToArray());
+        //    return scrambled;
+        //}
+
+        //static string Shuffle()
+        //{
+        //    Console.WriteLine("Enter a word and it will get scrambled!");
+        //    var userInput = Console.ReadLine();
+        //    var randomIndex = new Random();
+        //    var list = new SortedList<int, char>();
+        //    foreach (var character in userInput)
+        //    {
+        //         list.Add(randomIndex.Next(), character);
+        //    }
+
+        //    return new string(list.Values.ToArray());
+        //}
+        #endregion
     }
 
 
