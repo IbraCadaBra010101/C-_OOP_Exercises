@@ -9,7 +9,6 @@ namespace week4
     {
         private static void Main(string[] args)
         {
- 
         }
 
         #region Separate characters
@@ -176,6 +175,26 @@ namespace week4
         //    return new string(list.Values.ToArray());
         //}
         #endregion
+        #region Adding postfix
+
+        //static string AddPostFix()
+        //{
+        //    Console.WriteLine("Enter a word with at least three characters");
+        //    var userInput = Console.ReadLine();
+        //    var alphabeticalCharactersOnly = Regex.IsMatch(userInput, @"^[a-zA-Z]+$");
+           
+        //    while (string.IsNullOrWhiteSpace(userInput) || !alphabeticalCharactersOnly || userInput.Length < 3)
+        //    {  
+        //        Console.WriteLine("Please enter a valid word using alphabetical characters with at least three characters");
+        //        userInput = Console.ReadLine();
+        //        alphabeticalCharactersOnly = Regex.IsMatch(userInput, @"^[a-zA-Z]+$");
+
+        //    }
+        //    var lyOrIn = userInput.Insert(userInput.Length, userInput.Substring(userInput.Length - 3) == "ing" ? "ly" : "ing");
+        //    return lyOrIn;
+        //}
+        #endregion
+      
     }
 
 
