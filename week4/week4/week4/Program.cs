@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace week4
 {
     class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
         }
 
@@ -59,11 +60,11 @@ namespace week4
         //    {
         //        if (char.IsUpper(character))
         //        {
-        //            switchedCases +=  char.ToLower(character);
+        //            switchedCases += char.ToLower(character);
         //        }
         //        else
         //        {
-        //           switchedCases += char.ToUpper(character);
+        //            switchedCases += char.ToUpper(character);
         //        }
         //    }
         //    return switchedCases;
@@ -74,7 +75,7 @@ namespace week4
         //    var switchedCases = "";
         //    foreach (var character in text)
         //    {
-        //        var asciiValue = (int) character;
+        //        var asciiValue = (int)character;
         //        if (asciiValue >= 97 && asciiValue <= 122) //check if char is lowercase
         //        {
         //            switchedCases += (char)(character - 32); //make it uppercase
@@ -90,19 +91,58 @@ namespace week4
         //    }
         //    return switchedCases;
         //}
+        #endregion
+        #region Count substring
 
-
-
-
-
-
-
-
+        //static int CountAmountOfSubString(string txt, string subTxt)
+        //{
+        //    var amountOfMatches = Regex.Matches(txt, subTxt).Count;
+        //    return amountOfMatches;
+        //}
 
 
 
         #endregion
+        #region Equal ignore case
+
+        //static string CompareToYes()
+        //{
+        //    var usersInput = Console.ReadLine();
+        //    const string yes = "yes";
+
+        //    var isYes = yes == usersInput.ToLower();
+        //    var userMessage = isYes ? $"{usersInput} is equal to {yes}" : $"{usersInput} is not equal to {yes}";
+
+        //    return userMessage;
+        //}
+
+        #endregion
+        #region Read user details
+        //private static void UserInputForm()
+        //{
+        //    Console.WriteLine("Write name, age, phone number use comma in between each detail!");
+        //    var userInput = Console.ReadLine();
+        //    var userInputArray = userInput.Split(",");
+        //    Console.WriteLine($"$Name:{userInputArray[0]}");
+        //    Console.WriteLine($"Age:{userInputArray[1]}");
+        //    Console.WriteLine($"Phone number:{userInputArray[2]}");
+        //}
+        #endregion
+        #region  Ends in with period
+        //static void EndsWithPeriod()
+        //{
+        //    var userInput = Console.ReadLine();
+        //    var isLastElementPeriod = userInput.ElementAt(userInput.Length - 1).Equals('.')
+        //        ? $"{userInput} ends with a period"
+        //        : $"{userInput} does not end with period";
+        //    Console.WriteLine(isLastElementPeriod);
+        //}
+        #endregion
+
+
+
     }
+
 
 
 }
