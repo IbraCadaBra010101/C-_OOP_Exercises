@@ -9,6 +9,8 @@ namespace week4
     {
         private static void Main(string[] args)
         {
+           var caesarCiphered = CaesarCipher();
+           Console.WriteLine(caesarCiphered);
         }
 
         #region Separate characters
@@ -182,7 +184,7 @@ namespace week4
         //    Console.WriteLine("Enter a word with at least three characters");
         //    var userInput = Console.ReadLine();
         //    var alphabeticalCharactersOnly = Regex.IsMatch(userInput, @"^[a-zA-Z]+$");
-           
+
         //    while (string.IsNullOrWhiteSpace(userInput) || !alphabeticalCharactersOnly || userInput.Length < 3)
         //    {  
         //        Console.WriteLine("Please enter a valid word using alphabetical characters with at least three characters");
@@ -194,7 +196,49 @@ namespace week4
         //    return lyOrIn;
         //}
         #endregion
-      
+        #region Longest word in string
+
+        //static string LongestWordInSentence()
+        //{
+        //    var userSentence = Console.ReadLine();
+        //    var longestWord = ""; 
+        //    var wordsList = userSentence .Split(" ");
+        //    foreach (var currentWord in wordsList)
+        //    {
+        //        longestWord = currentWord.Length > wordsList[0].Length ? currentWord : wordsList[0];  
+        //    }
+        //    return longestWord;
+        //}
+
+        #endregion
+        #region Ceaser cipher
+
+        //static string CaesarCipher()
+        //{
+        //    Console.WriteLine("Enter word to be caesar ciphered");
+        //    var usersPassword = Console.ReadLine();
+        //    Console.WriteLine("Enter shift direction and amount of shifts: \nex. shift [amount of steps] / [amount of steps] shift");
+        //    var leftOrRightShift = Console.ReadLine();
+        //    var listOfShiftLeftOrRight = leftOrRightShift.Split(" ");  
+        //    var passwordToList = usersPassword.ToCharArray();
+        //    List<char> caesarChars;
+        //    if (listOfShiftLeftOrRight[0] == "shift")
+        //    {
+        //        var amountOfStep = int.Parse(listOfShiftLeftOrRight[1]) -1;
+        //         caesarChars = passwordToList.Select(character => (char)((int)(character + amountOfStep))).ToList();
+        //    }
+        //    else
+        //    {
+        //        var amountOfStep = int.Parse(listOfShiftLeftOrRight[0]) - 1;
+        //        caesarChars = passwordToList.Select(character => (char)((int)(character - amountOfStep))).ToList();
+        //    }
+        //    var caesarCipheredOutPut = new string(caesarChars.ToArray());
+        //    return caesarCipheredOutPut;
+        //}
+
+
+        #endregion
+
     }
 
 
