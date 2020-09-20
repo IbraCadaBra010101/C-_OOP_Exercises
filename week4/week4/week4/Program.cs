@@ -9,10 +9,62 @@ namespace week4
     {
         private static void Main(string[] args)
         {
-           var caesarCiphered = CaesarCipher();
-           Console.WriteLine(caesarCiphered);
-        }
+            //Person newPerson = new Person("");
+            //Console.WriteLine($"Old firstName: {newPerson.firstName}");
+            //newPerson.SetName("Alan");
+            //Console.WriteLine($"New firstName: {newPerson.firstName}");
+            //var name = newPerson.GetName();
+            //Console.WriteLine($"Name from get method: {name}");
+            //Person newPerson = new Person("Alan");
+            //Console.WriteLine(newPerson.GetName());
+            //Person teacher = new Person("Foo Bar", 10);
+            //Console.WriteLine(teacher.Age);
+            //Console.WriteLine(teacher.FirstName);
+            // teacher.Age = 1000;
+            //teacher.FirstName = "Foo Bar";
+            //Console.WriteLine(teacher.Age);
+            //Console.WriteLine(teacher.FirstName);
+            //Console.WriteLine("Enter age");
+            //var userAge = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter name");
+            //var userName = Console.ReadLine();
+            //Person anonymous = new Person(userName, userAge);
+            //var message = userAge >= 20
+            //    ? $"{anonymous.FirstName} is 20 years or older"
+            //    : $"{anonymous.FirstName} is younger than 20 years old";
+            //Console.WriteLine(message);
 
+            //const string x = "x";
+            //List<Person> listOfPersons = new List<Person>();
+            //do
+            //{
+            //    Console.WriteLine("Enter name");
+            //    var name = Console.ReadLine();
+            //    Console.WriteLine("Enter age");
+            //    var age = int.Parse(Console.ReadLine());
+            //    Person person = new Person(name, age);
+            //    listOfPersons.Add(person);
+            //    Console.WriteLine("Press any key continue! Press x to stop");
+            //} while (x != Console.ReadLine());
+
+            //foreach (var p in listOfPersons)
+            //{
+            //    Console.WriteLine(p.FirstName);
+            //    Console.WriteLine(p.Age);
+            //}
+
+            //var tempInCelsius = TemperatureConversion.ToCelsius(88);
+            //Console.WriteLine(Math.Round(tempInCelsius));
+            //var tempInFahrenheit = TemperatureConversion.ToFahrenheit(20);
+            //Console.WriteLine(Math.Round(tempInFahrenheit));
+            //var temperature = TemperatureConversion.Conversion(Console.ReadLine(), int.Parse(Console.ReadLine()));
+            //Console.WriteLine(Math.Round(temperature));
+            TemperatureConversion temp = new TemperatureConversion("celsius");
+            var temperature = temp.Conversion(30);
+            Console.WriteLine(Math.Round(temperature));
+
+        }
+        // String exercises
         #region Separate characters
         //static string PutCommasBetweenEachCharacter(string txt)
         //{
@@ -122,7 +174,7 @@ namespace week4
         #region Read user details
         //private static void UserInputForm()
         //{
-        //    Console.WriteLine("Write name, age, phone number use comma in between each detail!");
+        //    Console.WriteLine("Write firstName, age, phone number use comma in between each detail!");
         //    var userInput = Console.ReadLine();
         //    var userInputArray = userInput.Split(",");
         //    Console.WriteLine($"$Name:{userInputArray[0]}");
@@ -235,6 +287,14 @@ namespace week4
         //    var caesarCipheredOutPut = new string(caesarChars.ToArray());
         //    return caesarCipheredOutPut;
         //}
+
+
+        #endregion
+
+        // Class exercises
+
+        #region creating a class 
+
 
 
         #endregion
