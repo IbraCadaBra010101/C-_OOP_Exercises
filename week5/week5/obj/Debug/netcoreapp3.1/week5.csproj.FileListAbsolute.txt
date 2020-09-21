@@ -1,0 +1,14 @@
+C:\oop_csharp\exercises\week5\week5\bin\Debug\netcoreapp3.1\week5.exe
+C:\oop_csharp\exercises\week5\week5\bin\Debug\netcoreapp3.1\week5.deps.json
+C:\oop_csharp\exercises\week5\week5\bin\Debug\netcoreapp3.1\week5.runtimeconfig.json
+C:\oop_csharp\exercises\week5\week5\bin\Debug\netcoreapp3.1\week5.runtimeconfig.dev.json
+C:\oop_csharp\exercises\week5\week5\bin\Debug\netcoreapp3.1\week5.dll
+C:\oop_csharp\exercises\week5\week5\bin\Debug\netcoreapp3.1\week5.pdb
+C:\oop_csharp\exercises\week5\week5\obj\Debug\netcoreapp3.1\week5.csprojAssemblyReference.cache
+C:\oop_csharp\exercises\week5\week5\obj\Debug\netcoreapp3.1\week5.AssemblyInfoInputs.cache
+C:\oop_csharp\exercises\week5\week5\obj\Debug\netcoreapp3.1\week5.AssemblyInfo.cs
+C:\oop_csharp\exercises\week5\week5\obj\Debug\netcoreapp3.1\week5.csproj.CoreCompileInputs.cache
+C:\oop_csharp\exercises\week5\week5\obj\Debug\netcoreapp3.1\week5.dll
+C:\oop_csharp\exercises\week5\week5\obj\Debug\netcoreapp3.1\week5.pdb
+C:\oop_csharp\exercises\week5\week5\obj\Debug\netcoreapp3.1\week5.genruntimeconfig.cache
+C:\oop_csharp\exercises\week5\week5\bin\Debug\netcoreapp3.1\words.txt
