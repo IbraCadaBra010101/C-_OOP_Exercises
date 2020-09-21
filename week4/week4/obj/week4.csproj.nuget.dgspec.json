@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\oop_csharp\\exercises\\week4\\week4\\week4\\week4.csproj": {}
+    "C:\\oop_csharp\\exercises\\week4\\week4\\week4.csproj": {}
   },
   "projects": {
-    "C:\\oop_csharp\\exercises\\week4\\week4\\week4\\week4.csproj": {
+    "C:\\oop_csharp\\exercises\\week4\\week4\\week4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\oop_csharp\\exercises\\week4\\week4\\week4\\week4.csproj",
+        "projectUniqueName": "C:\\oop_csharp\\exercises\\week4\\week4\\week4.csproj",
         "projectName": "week4",
-        "projectPath": "C:\\oop_csharp\\exercises\\week4\\week4\\week4\\week4.csproj",
+        "projectPath": "C:\\oop_csharp\\exercises\\week4\\week4\\week4.csproj",
         "packagesPath": "C:\\Users\\46790\\.nuget\\packages\\",
-        "outputPath": "C:\\oop_csharp\\exercises\\week4\\week4\\week4\\obj\\",
+        "outputPath": "C:\\oop_csharp\\exercises\\week4\\week4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\46790\\AppData\\Roaming\\NuGet\\NuGet.Config",

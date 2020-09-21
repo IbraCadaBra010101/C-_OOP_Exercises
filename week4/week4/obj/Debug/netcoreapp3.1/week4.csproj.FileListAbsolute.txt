@@ -11,3 +11,16 @@ C:\oop_csharp\exercises\week4\week4\week4\obj\Debug\netcoreapp3.1\week4.csproj.C
 C:\oop_csharp\exercises\week4\week4\week4\obj\Debug\netcoreapp3.1\week4.dll
 C:\oop_csharp\exercises\week4\week4\week4\obj\Debug\netcoreapp3.1\week4.pdb
 C:\oop_csharp\exercises\week4\week4\week4\obj\Debug\netcoreapp3.1\week4.genruntimeconfig.cache
+C:\oop_csharp\exercises\week4\week4\bin\Debug\netcoreapp3.1\week4.exe
+C:\oop_csharp\exercises\week4\week4\bin\Debug\netcoreapp3.1\week4.deps.json
+C:\oop_csharp\exercises\week4\week4\bin\Debug\netcoreapp3.1\week4.runtimeconfig.json
+C:\oop_csharp\exercises\week4\week4\bin\Debug\netcoreapp3.1\week4.runtimeconfig.dev.json
+C:\oop_csharp\exercises\week4\week4\bin\Debug\netcoreapp3.1\week4.dll
+C:\oop_csharp\exercises\week4\week4\bin\Debug\netcoreapp3.1\week4.pdb
+C:\oop_csharp\exercises\week4\week4\obj\Debug\netcoreapp3.1\week4.csprojAssemblyReference.cache
+C:\oop_csharp\exercises\week4\week4\obj\Debug\netcoreapp3.1\week4.AssemblyInfoInputs.cache
+C:\oop_csharp\exercises\week4\week4\obj\Debug\netcoreapp3.1\week4.AssemblyInfo.cs
+C:\oop_csharp\exercises\week4\week4\obj\Debug\netcoreapp3.1\week4.csproj.CoreCompileInputs.cache
+C:\oop_csharp\exercises\week4\week4\obj\Debug\netcoreapp3.1\week4.dll
+C:\oop_csharp\exercises\week4\week4\obj\Debug\netcoreapp3.1\week4.pdb
+C:\oop_csharp\exercises\week4\week4\obj\Debug\netcoreapp3.1\week4.genruntimeconfig.cache

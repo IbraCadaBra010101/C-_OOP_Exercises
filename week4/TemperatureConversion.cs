@@ -35,7 +35,6 @@ namespace week4
                _unit = Console.ReadLine();
 
             }
-       
             var convertedTemperature = _unit == celsius ? ToFahrenheit(degree) : ToCelsius(degree);
             return convertedTemperature;
 

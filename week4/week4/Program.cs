@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
@@ -59,9 +60,12 @@ namespace week4
             //Console.WriteLine(Math.Round(tempInFahrenheit));
             //var temperature = TemperatureConversion.Conversion(Console.ReadLine(), int.Parse(Console.ReadLine()));
             //Console.WriteLine(Math.Round(temperature));
-            TemperatureConversion temp = new TemperatureConversion("celsius");
-            var temperature = temp.Conversion(30);
-            Console.WriteLine(Math.Round(temperature));
+            //TemperatureConversion temp = new TemperatureConversion("celsius");
+            //var temperature = temp.Conversion(30);
+            //Console.WriteLine(Math.Round(temperature));
+
+            // File exercises 
+            CreateFile();
 
         }
         // String exercises
@@ -292,12 +296,18 @@ namespace week4
         #endregion
 
         // Class exercises
+        // File Exercises 
 
-        #region creating a class 
+        #region create and write to file 
+        static void CreateFile()
+        {
+            string filePath = @"C:/oop_csharp/testFile.json";
+            string fileText = "Hello World";
+            File.WriteAllText(filePath, fileText);
 
-
-
+        }
         #endregion
+
 
     }
 
