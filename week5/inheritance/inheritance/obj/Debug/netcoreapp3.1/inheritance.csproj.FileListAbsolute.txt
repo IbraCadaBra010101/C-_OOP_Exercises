@@ -1,0 +1,13 @@
+C:\oop_csharp\exercises\week5\inheritance\inheritance\bin\Debug\netcoreapp3.1\inheritance.exe
+C:\oop_csharp\exercises\week5\inheritance\inheritance\bin\Debug\netcoreapp3.1\inheritance.deps.json
+C:\oop_csharp\exercises\week5\inheritance\inheritance\bin\Debug\netcoreapp3.1\inheritance.runtimeconfig.json
+C:\oop_csharp\exercises\week5\inheritance\inheritance\bin\Debug\netcoreapp3.1\inheritance.runtimeconfig.dev.json
+C:\oop_csharp\exercises\week5\inheritance\inheritance\bin\Debug\netcoreapp3.1\inheritance.dll
+C:\oop_csharp\exercises\week5\inheritance\inheritance\bin\Debug\netcoreapp3.1\inheritance.pdb
+C:\oop_csharp\exercises\week5\inheritance\inheritance\obj\Debug\netcoreapp3.1\inheritance.csprojAssemblyReference.cache
+C:\oop_csharp\exercises\week5\inheritance\inheritance\obj\Debug\netcoreapp3.1\inheritance.AssemblyInfoInputs.cache
+C:\oop_csharp\exercises\week5\inheritance\inheritance\obj\Debug\netcoreapp3.1\inheritance.AssemblyInfo.cs
+C:\oop_csharp\exercises\week5\inheritance\inheritance\obj\Debug\netcoreapp3.1\inheritance.csproj.CoreCompileInputs.cache
+C:\oop_csharp\exercises\week5\inheritance\inheritance\obj\Debug\netcoreapp3.1\inheritance.dll
+C:\oop_csharp\exercises\week5\inheritance\inheritance\obj\Debug\netcoreapp3.1\inheritance.pdb
+C:\oop_csharp\exercises\week5\inheritance\inheritance\obj\Debug\netcoreapp3.1\inheritance.genruntimeconfig.cache

@@ -9,8 +9,33 @@ namespace week5
     {
         static void Main(string[] args)
         {
-           
+            //Teacher programmingTeacher = new Teacher("Teach", 10, "foo@mail.com", "Drottninggatan 8b 123 45", 3000);
+            //Student programmingStudent = new Student("Stud", 10, "foo@mail.com", "Drottninggatan 8A 123 45", "VG");
+            ////programmingTeacher.GradeStudent(programmingStudent);
+            ////programmingTeacher.Print();
+
+            //static void PrintPerson(Person person) {  person.Print(); }
+            //PrintPerson(programmingStudent);
+            //PrintPerson(programmingTeacher);
+            //PrintPerson(programmingTeacher);
+            //Toyota prius = new Toyota("Toyota", 1999, "Japan", "Daimler", "Prius", true);
+            //Toyota yaris = new Toyota("Toyota", 1999, "Japan", "Daimler", "Yaris", true);
+            //Car cars = new Car("Toyota", 1999, "Japan", "Daimler");
+            //cars.ListOfCars.Add(prius);
+            //cars.ListOfCars.Add(yaris);
+            //cars.PrintCarInfo();
+
+            // Lancia rallyCar = new Lancia("XAZ GTR 123", 2020, "Mumbasa", "Tesla", 10, "Jim Jones");  
+            ////rallyCar.PrintCarInfo();
+
+            //Shapes triangel = new Shapes(new Triangel());
+            //triangel.PrintShape();
+            //Shapes circle = new Shapes(new Circle());
+            //circle.PrintShape();
+            Shapes triangleShape = new Shapes(new Triangel());
+            triangleShape.PrintShape("Green", 5, 8  );
         }
+
         #region create and write file 
 
         // Class exercises

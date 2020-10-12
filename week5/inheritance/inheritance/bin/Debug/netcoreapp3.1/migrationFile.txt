@@ -1,0 +1,2 @@
+Info: Migration started at 2020-10-10 18:11:25
+Info: Migration finished at 2020-10-10 18:11:25

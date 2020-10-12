@@ -1,0 +1,13 @@
+C:\oop_csharp\exercises\week5\Interfaces\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.exe
+C:\oop_csharp\exercises\week5\Interfaces\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.deps.json
+C:\oop_csharp\exercises\week5\Interfaces\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.runtimeconfig.json
+C:\oop_csharp\exercises\week5\Interfaces\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.runtimeconfig.dev.json
+C:\oop_csharp\exercises\week5\Interfaces\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.dll
+C:\oop_csharp\exercises\week5\Interfaces\Interfaces\bin\Debug\netcoreapp3.1\Interfaces.pdb
+C:\oop_csharp\exercises\week5\Interfaces\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csprojAssemblyReference.cache
+C:\oop_csharp\exercises\week5\Interfaces\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfoInputs.cache
+C:\oop_csharp\exercises\week5\Interfaces\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.AssemblyInfo.cs
+C:\oop_csharp\exercises\week5\Interfaces\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.csproj.CoreCompileInputs.cache
+C:\oop_csharp\exercises\week5\Interfaces\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.dll
+C:\oop_csharp\exercises\week5\Interfaces\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.pdb
+C:\oop_csharp\exercises\week5\Interfaces\Interfaces\obj\Debug\netcoreapp3.1\Interfaces.genruntimeconfig.cache
