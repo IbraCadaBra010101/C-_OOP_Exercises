@@ -2,7 +2,7 @@
 
 namespace Interfaces
 {
-    class Square : IShape
+    class Square : IShape, IShapeDisplay
     {
         public string Color { get; set; } = "blue";
         public string Name { get; } = "square";
@@ -11,6 +11,11 @@ namespace Interfaces
         public double GetArea()
         {
             return Width * Height;
+        }
+
+        public void Display()
+        {
+            Console.WriteLine($"Color: {Color} Name:{Name} Area:{GetArea()}");
         }
     }
 }

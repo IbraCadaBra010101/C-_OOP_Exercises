@@ -8,6 +8,10 @@ namespace Interfaces
         {
             Console.WriteLine($"A {shape.Color} {shape.Name} with an area of {shape.GetArea()}");
         }
+        public void CallDisplay(IShapeDisplay display)
+        {
+            display.Display();
+        }
 
     }
 }

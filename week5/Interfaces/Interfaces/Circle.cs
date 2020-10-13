@@ -3,7 +3,7 @@ using Interfaces;
 
 namespace Interfaces
 { 
-    class Circle : IShape
+    class Circle : IShape, IShapeDisplay
     {
         public string Color { get; set; } = "Green";
         public string Name { get; } = "Circle";
@@ -11,6 +11,11 @@ namespace Interfaces
         public double GetArea()
         {
             return Math.PI* Radius;
+        }
+
+        public void Display()
+        {
+            Console.WriteLine($"Color: {Color} Name:{Name} Area:{GetArea()}");
         }
     }
 }

@@ -1,0 +1,13 @@
+C:\oop_csharp\exercises\week5\interfaceInheritance\interfaceInheritance\bin\Debug\netcoreapp3.1\interfaceInheritance.exe
+C:\oop_csharp\exercises\week5\interfaceInheritance\interfaceInheritance\bin\Debug\netcoreapp3.1\interfaceInheritance.deps.json
+C:\oop_csharp\exercises\week5\interfaceInheritance\interfaceInheritance\bin\Debug\netcoreapp3.1\interfaceInheritance.runtimeconfig.json
+C:\oop_csharp\exercises\week5\interfaceInheritance\interfaceInheritance\bin\Debug\netcoreapp3.1\interfaceInheritance.runtimeconfig.dev.json
+C:\oop_csharp\exercises\week5\interfaceInheritance\interfaceInheritance\bin\Debug\netcoreapp3.1\interfaceInheritance.dll
+C:\oop_csharp\exercises\week5\interfaceInheritance\interfaceInheritance\bin\Debug\netcoreapp3.1\interfaceInheritance.pdb
+C:\oop_csharp\exercises\week5\interfaceInheritance\interfaceInheritance\obj\Debug\netcoreapp3.1\interfaceInheritance.csprojAssemblyReference.cache
+C:\oop_csharp\exercises\week5\interfaceInheritance\interfaceInheritance\obj\Debug\netcoreapp3.1\interfaceInheritance.AssemblyInfoInputs.cache
+C:\oop_csharp\exercises\week5\interfaceInheritance\interfaceInheritance\obj\Debug\netcoreapp3.1\interfaceInheritance.AssemblyInfo.cs
+C:\oop_csharp\exercises\week5\interfaceInheritance\interfaceInheritance\obj\Debug\netcoreapp3.1\interfaceInheritance.csproj.CoreCompileInputs.cache
+C:\oop_csharp\exercises\week5\interfaceInheritance\interfaceInheritance\obj\Debug\netcoreapp3.1\interfaceInheritance.dll
+C:\oop_csharp\exercises\week5\interfaceInheritance\interfaceInheritance\obj\Debug\netcoreapp3.1\interfaceInheritance.pdb
+C:\oop_csharp\exercises\week5\interfaceInheritance\interfaceInheritance\obj\Debug\netcoreapp3.1\interfaceInheritance.genruntimeconfig.cache
